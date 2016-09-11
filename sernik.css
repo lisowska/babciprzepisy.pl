@@ -1,0 +1,179 @@
+
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+html{
+    margin-right:35px;
+    margin-left:35px;
+}
+
+body {
+	font-family:'Slabo 27px', cursive;
+	padding-top: 70px;
+	font-size:16px;
+	line-height: 1.5;
+	
+}
+
+#menu{
+    text-align:center;
+    height:34px;
+    padding-top:10px;
+    margin-bottom:50px;
+	background-color:#ffdab3;
+	font-family:'Slabo 27px';
+    }
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size:22px;
+    padding-right:40px;
+}
+
+nav ul li {
+    display:inline-block;
+}
+
+.recipe_add{
+	border-top:2px solid gray;
+	padding-top:16px;
+	padding-bottom:6px;
+	border-bottom:2px solid gray;
+}
+
+.recipe-summary,
+.recipe-method,
+.recipe-ingredients {
+  /*margin: 20px;*/
+  align-self: flex-start;
+}
+
+.recipe-method {
+  width: 70%
+  margin-top:10px;
+  padding:40px;
+  padding-left:146px;
+  font-family:'Slabo 27px';
+  text-align: justify;
+}
+.recipe-method2 {
+  width: 75%;
+  margin-top:0;
+  padding:40px;
+  padding-left:133px;
+  font-family:'Slabo 27px';
+  text-align: justify;
+}
+.recipe-method3 {
+  width: 650px;
+  margin-top:0;
+  padding:40px;
+  padding-left:133px;
+  font-family:'Slabo 27px';
+  text-align: justify;
+}
+
+
+
+.recipe-summary {
+  width: 90%;
+  margin-top: -25px;
+  margin-left: 100px;
+  margin-bottom:12px;
+}
+
+.recipe-row-1 {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    margin-bottom: -20px;
+    margin-left: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+.recipe-row-2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+}
+
+.recipe-ingredients {
+  margin: 0px auto;
+  align-self: flex-start;
+  padding:40px;
+}
+
+.side-nav {
+  position: fixed;
+  top: 100px;
+  right: 100px;
+  background-color:#ffdab3;
+  width:200px;
+  height:324px;
+  padding:5px 5px;
+  opacity: 0.6;
+  text-decoration: none;
+  border: 1px solid grey;
+}
+
+.side-nav img{
+	width:100px;
+	padding-left:50px;
+}
+
+.side-nav h3 {
+	text-align: center;
+	color: black;
+}
+.side-nav ul{
+	padding-left:20px;
+}
+.side-nav ul li{
+	padding: 5px;
+	list-style: none;
+	border-bottom: 1px solid grey;
+	margin-right:3px;
+}
+
+.side-nav ul li a{
+	color: black;
+	font-family:'Slabo 27px';
+	text-align:center;
+	padding-left:0px;
+	text-decoration: none;
+}
+
+ .side-nav ul a:hover{
+	 color:red;
+ }
+.method{
+    text-align:center;
+}
+
+.color{
+    background-color:#ffcccc;
+    height:40px;
+}
+
+.line{
+	border:solid 1px black;
+}
+
+.space{
+	background-color:#ffdab3;
+	height:2px;
+	margin-bottom:20px;
+}
+
+.title_recepi{
+	margin-top:0px;
+}
